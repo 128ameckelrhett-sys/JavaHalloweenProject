@@ -7,3 +7,24 @@
 }
 
 
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-image: none;
+    background-position: center;
+    background-size: cover;
+    padding: 0 8%;
+}
+
+.logo{
+    width: 120px;
+    padding: 20px 0;
+    cursor: pointer;
+
+}
+
+.content{
+    top: 50%;
+    position: absolute;
+    transform: translateY(-50%);
+}
